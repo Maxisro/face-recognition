@@ -1,0 +1,22 @@
+.form {
+	border-radius: 5px;
+	width: 700px;
+	background: #009fff;
+	background: -webkit-linear-gradient(to left, #ec2f4b, #009fff);
+	background: linear-gradient(to left, #ec2f4b, #009fff);
+	column-gap: 5px;
+}
+.form input {
+	border-radius: 5px;
+	border: none;
+}
+.form button {
+	border: none;
+	border-radius: 5px;
+	background: #8a2387;
+	background: -webkit-linear-gradient(to left, #f27121, #e94057, #8a2387);
+	background: linear-gradient(to left, #f27121, #e94057, #8a2387);
+}
+.form button:hover { 
+	opacity: 1;
+}

@@ -1,0 +1,12 @@
+.wrap{
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+.tilt{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background: #8a2387;
+	background: -webkit-linear-gradient(to left, #f27121, #e94057, #8a2387);
+	background: linear-gradient(to left, #f27121, #e94057, #8a2387);
+}
