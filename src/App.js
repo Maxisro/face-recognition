@@ -10,7 +10,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-         <ParticlesBg type="cobweb" num={250} color={'#ffffff'} bg={true} />
+         <ParticlesBg type="cobweb" num={100} color={'#ffffff'} bg={true} />
 				<Navigation />
 				<Logo />
 				<Rank />

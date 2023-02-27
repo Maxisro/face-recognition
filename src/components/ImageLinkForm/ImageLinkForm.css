@@ -20,3 +20,16 @@
 .form button:hover { 
 	opacity: 1;
 }
+
+@media (max-width: 320px) {
+	.form{
+		flex-direction: column;
+		gap: 10px;
+	}
+	.form input {
+		width: 100%;
+	}
+	.form button{
+		width: 200px;
+	}
+}
