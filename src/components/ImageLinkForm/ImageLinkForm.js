@@ -1,18 +1,29 @@
 import React from "react";
-import '..//ImageLinkForm/ImageLinkForm.css'
+import "..//ImageLinkForm/ImageLinkForm.css";
 
-const ImageLinkForm = () => {
+const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
 	return (
 		<div>
-		<p className="f3">
-			{'This Magic Brain will detect faces in your pictures. Git it a try.'}
-		</p>
-		<div className="center">
-			<div className="center form pa3  shadow-5">
-				<input className="f4 pa2 w-70 center " type="text" name="" id="" />
-				<button className="w-30 grow f4 link dim ph3 pv2  dib white">Detect</button>
+			<p className="f3">
+				{"This Magic Brain will detect faces in your pictures. Git it a try."}
+			</p>
+			<div className="center">
+				<div className="center form pa3  shadow-5">
+					<input
+						className="f4 pa2 w-70 center "
+						type="text"
+						name=""
+						id=""
+						onChange={onInputChange}
+					/>
+					<button
+						className="w-30 grow f4 link dim ph3 pv2  dib white"
+						onClick={onButtonSubmit}
+					>
+						Detect
+					</button>
+				</div>
 			</div>
-		</div>
 		</div>
 	);
 };
